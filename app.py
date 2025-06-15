@@ -44,14 +44,15 @@ import matplotlib.pyplot as plt
 st.markdown("### 🧰 Step 2: Load Dataset :")
 
 st.code("""
-        df = pd.read_csv("C:\\Users\\devbh\\OneDrive\\Documents\\Desktop\\startup_funding.csv")
+        df = pd.read_csv("https://raw.githubusercontent.com/devsharma-data-scientist/Cleaning-and-Analyse-the-Startup-Funds/main/startup_funding.csv")
         df.head()
         """)
 
-df = pd.read_csv("C:\\Users\\devbh\\OneDrive\\Documents\\Desktop\\startup_funding.csv") 
+df = pd.read_csv("https://raw.githubusercontent.com/devsharma-data-scientist/Cleaning-and-Analyse-the-Startup-Funds/main/startup_funding.csv")
 
 st.markdown("### 📂 Preview of Raw Dataset")
 st.dataframe(df.head(5))
+
 
 st.markdown("""
 
